@@ -14,4 +14,4 @@ app.use(bodyParser.json())
 
 
 
-app.listen(SERVER_PORT, console.log(`🐦  The birds are chirping on port ${SERVER_PORT} 🐦`))
+app.listen(SERVER_PORT, console.log(`🐦  The birds are singing on port ${SERVER_PORT} 🐦`))
