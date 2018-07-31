@@ -1,0 +1,39 @@
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../images/wing.jpeg');
+  color: whitesmoke;
+}
+
+.titleCont {
+  background: #1818187c;
+  width: 100vw;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 50px;
+  font-weight: 900;
+}
+
+.title {
+  font-size: 100px;
+  letter-spacing: 4px;
+  margin: 0;
+  padding-right: 50px;
+  text-align: center;
+
+}
+
+.title > span {
+  font-size: 75px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 200px;
+  margin-top: 20px;
+}

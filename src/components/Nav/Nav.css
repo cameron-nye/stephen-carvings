@@ -1,0 +1,78 @@
+
+.nav {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.822), black), url('../../images/owl-face.jpg') no-repeat;
+  background-size: cover;
+  transition: linear 0.3s;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+}
+
+.navClosed {
+  height: 100vh;
+  width: 0vw;
+  transition: linear 0.3s;
+
+}
+
+#hamMenu {
+  box-sizing: border-box;
+  width: 30px;
+  height: 35px;
+  position: fixed;
+  right: 5vw;
+  top: 5vh;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.line {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: whitesmoke;
+  transition: all cubic-bezier(0.25, 0.1, 0.28, 1) 0.4s;
+}
+
+.line01 {
+  top: 15%;
+}
+
+.line02 {
+  top: 40%;
+}
+
+.line03 {
+  top: 65%;
+}
+
+.line01closed {
+  transform: rotate(-45deg);
+  top: 49%;
+}
+
+.line02closed,
+.line03closed {
+  transform: rotate(45deg);
+  top: 49%;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
