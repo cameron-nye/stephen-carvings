@@ -4,7 +4,7 @@ export default class Bio extends Component {
   render() {
     return (
       <div>
-        
+        Bio
       </div>
     )
   }
