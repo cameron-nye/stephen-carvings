@@ -18,7 +18,6 @@ export default class Nav extends Component {
   }
 
   render() {
-    console.log(this.state)
     return (
       <div className={this.state.toggleMenu ? "nav closed" : "nav"}>
         <div id="hamMenu" onClick={() => this.toggleMenuFn()}>
