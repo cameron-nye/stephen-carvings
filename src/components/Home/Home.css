@@ -13,7 +13,8 @@
   width: 100vw;
   border-radius: 3px;
   box-sizing: border-box;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-weight: 900;
 }
 
@@ -21,7 +22,6 @@
   font-size: 100px;
   letter-spacing: 4px;
   margin: 0;
-  padding-right: 50px;
   text-align: center;
 
 }
@@ -34,6 +34,71 @@
   margin: 0;
   font-size: 30px;
   text-align: right;
-  padding-right: 200px;
+  padding-right: 20vw;
   margin-top: 20px;
+}
+
+@media (max-width: 500px){
+  .titleCont {
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .title {
+    font-size: 30px;
+    padding: 0px;
+    letter-spacing: 1px;
+  }
+  .title > span {
+    font-size: 20px;
+  }
+  .subtitle {
+    font-size: 14px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px){
+  .titleCont {
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .title {
+    font-size: 60px;
+    padding: 0px;
+    letter-spacing: 1px;
+  }
+  .title > span {
+    font-size: 45px;
+  }
+  .subtitle {
+    font-size: 20px;
+    padding: 0px;
+    text-align: right;
+    width: 80%;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1199px){
+  .titleCont {
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .title {
+    font-size: 80px;
+    padding: 0px;
+    letter-spacing: 1px;
+  }
+  .title > span {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 30px;
+    padding: 0px;
+    text-align: right;
+    width: 80%;
+  }
 }

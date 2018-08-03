@@ -4,7 +4,7 @@
   width: 100vw;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.918), black), url('../../images/owl-face.jpg') no-repeat;
   background-size: cover;
-  transition: ease-out 0.3s;
+  transition: ease 0.3s;
   opacity: 1;
   position: absolute;
   right: 0;
@@ -14,7 +14,7 @@
   height: 100vh;
   overflow: hidden;
   width: 0vw;
-  transition: ease-in 0.3s;
+  transition: ease 0.3s;
 }
 
 #hamMenu {
@@ -83,4 +83,44 @@
 .menuItems > a, a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 500px){
+  .nav {
+    background: black;
+  }
+  #hamMenu {
+    right: 10vw;
+  }
+  .menuItems {
+    font-size: 40px;
+    margin-top: 15vh;
+    line-height: 2;
+    margin-right: 10vw;
+    
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px){
+  .nav {
+    background: black;
+  }
+  #hamMenu {
+    right: 8vw;
+  }
+  .menuItems {
+    margin-top: 15vh;
+    font-size: 80px;
+    margin-right: 8vw;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1199px){
+  .nav {
+    background: black;
+  }
+  .menuItems {
+    margin-top: 15vh;
+    font-size: 80px;
+  }
 }
