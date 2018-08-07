@@ -16,7 +16,7 @@ const app = express()
 app.use(bodyParser.json())
 
 // NODEMAILER
-let transport = nodemailer.createTransport({
+let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: EMAIL,
