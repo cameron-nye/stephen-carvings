@@ -29,7 +29,8 @@ app.post('/email', (req, res, next) => {
   let mail = {
     from: EMAIL,
     to: EMAIL,
-    html: `Sender: ${name} from ${location} <br/> Sender's Email: ${email} <br/> Subject: ${subject} <br/> Message: ${message}` 
+    subject: subject,
+    html: `Sender: ${name} from ${location} <br/> Sender's Email: ${email} <br/> Message: ${message}` 
   }
   transporter.sendMail(mail, (error, response) => {
     if(error){

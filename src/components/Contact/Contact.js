@@ -34,6 +34,7 @@ export default class Contact extends Component {
           subject: "",
           message: ""
         });
+        alert('Your message has been sent!')
       })
       .catch(error => {
         console.log(error);
