@@ -38,7 +38,7 @@
   margin-top: 20px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 599px){
   .titleCont {
     padding: 0px;
     padding-top: 30px;
@@ -59,14 +59,14 @@
   }
 }
 
-@media (min-width: 501px) and (max-width: 900px){
+@media (min-width: 600px){
   .titleCont {
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   .title {
-    font-size: 60px;
+    font-size: 50px;
     padding: 0px;
     letter-spacing: 1px;
   }
@@ -77,11 +77,11 @@
     font-size: 20px;
     padding: 0px;
     text-align: right;
-    width: 80%;
+    max-width: 500px;
   }
 }
 
-@media (min-width: 901px) and (max-width: 1199px){
+@media (min-width: 900px){
   .titleCont {
     padding: 0px;
     padding-top: 30px;
@@ -99,6 +99,13 @@
     font-size: 30px;
     padding: 0px;
     text-align: right;
-    width: 80%;
+    max-width: 800px;
+    
+  }
+}
+
+@media (min-width: 1200px) {
+  .subtitle {
+    max-width: 950px;
   }
 }
