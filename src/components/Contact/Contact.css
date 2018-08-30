@@ -1,5 +1,18 @@
 
 .sendButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid black;
   cursor: pointer;
+  width: 25%;
+  height: 50px;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.sendButton:hover {
+  background: rgb(124, 124, 124);
+  color: white;
 }

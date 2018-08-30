@@ -8,16 +8,18 @@ export default class Projects extends Component {
     this.state = {
       projects: [
         { 
-          title: '',
-          desc: '',
-          price: '',
-          images: []
+          title: 'Ivory-Billed Woodpecker',
+          desc: 'Lorem Ipsum Dolor Sit Amet',
+          price: '$3,000',
+          images: [],
+          forSale: true
         },
         {
-          title: '',
-          desc: '',
-          price: '',
-          images: []
+          title: 'Barn Owl',
+          desc: 'Lorem Ipsum Dolor Sit Amet',
+          price: '$3500',
+          images: [],
+          forSale: true
         }
       ]
     };
@@ -34,6 +36,7 @@ export default class Projects extends Component {
             desc = {project.desc}
             price = {project.price}
             images = {project.images}
+            sale = {project.forSale}
           />
         </div>
       )
