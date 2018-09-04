@@ -41,14 +41,14 @@ export default class Projects extends Component {
         {
           title: 'Barn Owl',
           desc: 'Lorem Ipsum Dolor Sit Amet',
-          price: '$3500',
+          price: '$3,500',
           images: [O27, O31, O32, O33],
           forSale: true
         },
         {
           title: 'Bittern',
           desc: 'Lorem Ipsum Dolor Sit Amet',
-          price: '$3000',
+          price: '$3,000',
           images: [B1, B2, B3, B4, B5, B6, B7, B8],
           forSale: true
 
