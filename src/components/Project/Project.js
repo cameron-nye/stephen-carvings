@@ -28,6 +28,26 @@ export default class Project extends Component {
       {
         original: images[3],
         thumbnail: images[3]
+      },
+      {
+        original: images[4],
+        thumbnail: images[4]
+      },
+      {
+        original: images[5],
+        thumbnail: images[5]
+      },
+      {
+        original: images[6],
+        thumbnail: images[6]
+      },
+      {
+        original: images[7],
+        thumbnail: images[7]
+      },
+      {
+        original: images[8],
+        thumbnail: images[8]
       }
     ]
     return (
