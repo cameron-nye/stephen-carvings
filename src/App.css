@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher');
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright|Courgette|Handlee|Merienda|Philosopher');
 
 
 .App {
+  font-family: 'Courgette', cursive;
   /* font-family: 'Philosopher', sans-serif; */
-  font-family: 'Julius Sans One', sans-serif;
-
+  /* font-family: 'Merienda', cursive; */
+  /* font-family: 'Handlee', cursive; */
+  /* font-family: 'Cormorant Upright', serif; */
 }

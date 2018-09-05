@@ -1,5 +1,4 @@
 
-.gallery {
-  max-height: 300px;
-  background: cadetblue
+.image-gallery {
+  width: 50%;
 }
